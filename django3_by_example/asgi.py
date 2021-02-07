@@ -1,5 +1,5 @@
 """
-ASGI config for d3be-blog project.
+ASGI config for django3_by_example project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'd3be-blog.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django3_by_example.settings')
 
 application = get_asgi_application()
